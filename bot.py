@@ -4,10 +4,10 @@ import time
 from telebot import types
 from gatet import Tele
 import os
-token = '6792487855:' #bottoken
+token = '7703277028:AAG75vutgCokqH7a1Ah20sx6UxozC47lB0w:' #bottoken
 bot=telebot.TeleBot(token,parse_mode="HTML")
-subscriber = '6191863486'
-allowed_users = ['6191863486']  #Your ID
+subscriber = '5486683891'
+allowed_users = ['5486683891']  #Your ID
 @bot.message_handler(commands=["start"])
 def start(message):
     if str(message.chat.id) not in allowed_users:
